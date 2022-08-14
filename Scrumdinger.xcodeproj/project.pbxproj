@@ -18,6 +18,9 @@
 		569387B928A546C80016DC8E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569387B828A546C80016DC8E /* ScrumsView.swift */; };
 		569387BB28A6BC140016DC8E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569387BA28A6BC140016DC8E /* DetailView.swift */; };
 		56A779E328A6DC3D0009AD26 /* progress.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 56A779E228A6DC3D0009AD26 /* progress.GIF */; };
+		56A779E528A894770009AD26 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A779E428A894770009AD26 /* DetailEditView.swift */; };
+		56A779E928A950800009AD26 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A779E828A950800009AD26 /* ThemePicker.swift */; };
+		56A779EB28A954C90009AD26 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A779EA28A954C90009AD26 /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		569387BA28A6BC140016DC8E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		56A779E128A6DB190009AD26 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		56A779E228A6DC3D0009AD26 /* progress.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = progress.GIF; sourceTree = "<group>"; };
+		56A779E428A894770009AD26 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		56A779E828A950800009AD26 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		56A779EA28A954C90009AD26 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 			children = (
 				56A779E228A6DC3D0009AD26 /* progress.GIF */,
 				569387AF28A499CD0016DC8E /* Models */,
+				56A779E428A894770009AD26 /* DetailEditView.swift */,
+				56A779EA28A954C90009AD26 /* ThemeView.swift */,
+				56A779E828A950800009AD26 /* ThemePicker.swift */,
 				569387A128A48FDC0016DC8E /* ScrumdingerApp.swift */,
 				569387BA28A6BC140016DC8E /* DetailView.swift */,
 				569387B428A49DF20016DC8E /* CardView.swift */,
@@ -169,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A779E928A950800009AD26 /* ThemePicker.swift in Sources */,
 				569387B328A49B050016DC8E /* DailyScrum.swift in Sources */,
 				569387BB28A6BC140016DC8E /* DetailView.swift in Sources */,
+				56A779EB28A954C90009AD26 /* ThemeView.swift in Sources */,
+				56A779E528A894770009AD26 /* DetailEditView.swift in Sources */,
 				569387B128A499DD0016DC8E /* Theme.swift in Sources */,
 				569387A428A48FDC0016DC8E /* MeetingView.swift in Sources */,
 				569387B928A546C80016DC8E /* ScrumsView.swift in Sources */,
